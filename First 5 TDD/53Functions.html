@@ -1,0 +1,56 @@
+<html>
+
+
+	<head>
+
+	<title> 53 Functions By Aya </title>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+	
+	<link rel="stylesheet" type="text/css" href="functions.css">
+	<script type ="text/javascript" src =" script_main.js"></script>	
+	
+	</head>
+
+	<body>
+
+	<div id="tdd_toggle" onclick="document.getElementById('tdd_toggle').style.visibility='hidden';document.getElementById('tdd').style.visibility='visible';">OPEN TDD
+	</div>
+
+	<div id="tdd">
+			
+			<p id="text"></p>
+			<div id="close" onclick="document.getElementById('tdd').style.visibility='hidden';document.getElementById('tdd_toggle').style.visibility='visible';">X  (click function to test)
+			</div>
+	</div>
+
+		<h1 id="num">53</h1><h1 id="num_text">Functions</h1>
+		<div class="functions" onclick="hello_test();">Hello.js</div>
+		<div class="caption" >Returns Hello World</div>
+
+		<div class="functions" onclick="hello_uppercase_test();">Hello_Uppercase.js</div>
+		<div class="caption">takes a users name as parameter and returns "Hello, !"</div>
+
+		<div class="functions" onclick="hello_joe_test(name);">Hello_Joe.js</div>
+		<div class="caption">takes a users name as parameter and returns as "Hello, !" if their name is Joe or Bob only say "Hello!"</div>
+
+		<div class="functions" onclick="number_list_test(n);">number_list.js</div>
+		<div class="caption">takes a number as a parameter (n) and return a list of number from 1 to n</div>
+
+		<div class="functions" onclick="sumNumbersTest();">sum_numbers.js</div>
+		<div class="caption">takes a number as a parameter (n) and return the sum of numbers from 1 to n</div>
+		
+		<script type ="text/javascript" src =" hello.js"></script>
+		<script type ="text/javascript" src =" hello_test.js"></script>
+		<script type ="text/javascript" src =" hello_uppercase.js"></script>
+		<script type ="text/javascript" src ="hello_uppercase_test.js"></script>
+		<script type ="text/javascript" src =" hello_joe.js"></script>
+			<script type ="text/javascript" src =" hello_joe_test.js"></script>
+		<script type ="text/javascript" src =" number_list.js"></script>
+		<script type ="text/javascript" src =" number_list_test.js"></script>
+		<script type ="text/javascript" src =" tdd.js"></script>	
+			<script type ="text/javascript" src ="sum_numbers.js"></script>
+		<script type ="text/javascript" src ="sum_numbers_test.js"></script>	
+	</body>
+
+
+</html>
