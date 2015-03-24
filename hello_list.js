@@ -1,3 +1,14 @@
 function hello_list(n){
-  return ("Hello World!"*n);
+     
+     var list=[];
+     for(var i = 0; i <= n ;i++)
+     {
+
+         list.push("Hello World!");
+     }
+     return list;
+
+  
 }
+
+console.log(hello_list(5));
