@@ -1,5 +1,6 @@
 .travis.yml:
 
-before-script:
-- npm install
-script:gulp test
+before_script:
+  - npm install
+
+script: gulp test
