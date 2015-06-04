@@ -113,12 +113,13 @@ var start = function(sentence){
         
 
 }
+/*
 exports.most = function(arr){
     return most(arr);
 }
 exports.least = function(arr){
     return least(arr);
-}
+}*/
 
 
                

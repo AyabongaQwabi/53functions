@@ -12,7 +12,7 @@ var word_length = function(sentence){
         
         sum = sum/numWords;      
 
-        return [Math.round(sum),Math.floor(sum)];
+        return Math.round(sum);
 
 
 
